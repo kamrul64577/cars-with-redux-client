@@ -22,13 +22,13 @@ const Reviews = () => {
     const reviews = useSelector((state) => state.products.allReviews)
 
     return (
-        <Box sx={{ flexGrow: 1 }} style={{ marginBottom: '30px' }}>
+        <Box sx={{ flexGrow: 1 }} style={{ paddingBottom: '30px'}}>
             <Container>
-                <Typography variant="h4" component="div" style={{ paddingTop: '60px', paddingBottom: '30px' }} sx={{ textAlign: 'center', fontWeight: '700', color: '#454545', m: 2 }}>
+                <Typography variant="h4" component="div" style={{ paddingTop: '60px', paddingBottom: '30px' }} sx={{ textAlign: 'center', fontWeight: '700', color: '#454545', p: 2 }}>
                     Customers Reviews
                 </Typography>
 
-                <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
+                <Grid style={{ backgroundColor: '#F7EDEE', padding:'20px', borderRadius:'10px' }} container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }}>
                     {
                         reviews.map(review => <Review
                             key={review._id}

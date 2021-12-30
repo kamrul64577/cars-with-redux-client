@@ -10,10 +10,10 @@ const Advantage = () => {
                 <h2 className="fs-1 fw-bold">Shome Shoes <span>Advantages</span>
                 </h2>
             </div>
-            <div className="container mb-3">
+            <div className="container  mb-3">
                 <div className="row row-cols-1 row-cols-md-3 g-4 mt-5">
                     <div className="col">
-                        <div className="card d-block text-center card-hover">
+                        <div className="card content d-block text-center card-hover">
                             <i className="fas fa-users icons pt-5"></i>
                             <div className="card-body pb-5">
 
@@ -25,7 +25,7 @@ const Advantage = () => {
                         </div>
                     </div>
                     <div className="col">
-                        <div className="card d-block text-center card-hover">
+                        <div className="card content d-block text-center card-hover">
                             <i className="fas fa-hotel pt-5 icons"></i>
                             <div className="card-body pb-5">
 
@@ -37,7 +37,7 @@ const Advantage = () => {
                     </div>
 
                     <div className="col">
-                        <div className="card d-block text-center card-hover">
+                        <div className="card content d-block text-center card-hover">
                             <i className="fas fa-map-marked-alt icons pt-5"></i>
                             <div className="card-body pb-5">
 

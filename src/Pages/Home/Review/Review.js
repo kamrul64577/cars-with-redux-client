@@ -5,7 +5,7 @@ const Review = (props) => {
     const { review, rating } = props.review;
     return (
         <Grid item xs={4} sm={4} md={3}>
-            <Card sx={{ minWidth: 275, border: 0, boxShadow: 0, textAlign: 'center', backgroundColor: '#006400' }}>
+            <Card sx={{ minWidth: 280, height:150, border: 0, boxShadow: 0, textAlign: 'center', backgroundColor: '#3F4748' }}>
 
                 <CardContent>
 

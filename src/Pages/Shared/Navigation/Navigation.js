@@ -31,11 +31,11 @@ const Navigation = () => {
     return (
         <Box sx={{ flexGrow: 1 }} >
 
-            <AppBar position="static" style={{ backgroundColor: '#5d4037' }}>
+            <AppBar position="static" style={{ backgroundColor: '#000000' }}>
                 <Toolbar>
 
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-                        Shome
+                        CarsHouse
                     </Typography>
 
                     <div>

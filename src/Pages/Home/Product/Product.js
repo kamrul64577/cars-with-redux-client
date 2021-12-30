@@ -6,8 +6,8 @@ const Product = (props) => {
     const { title, description, img, price, _id } = props.product;
     return (
         <Grid item xs={4} sm={4} md={4}>
-            <Card sx={{ minWidth: 275, boxShadow: 0, textAlign: 'center' }} style={{ border: '1px solid #E1E1E1', borderRadius: '13px' }}>
-                <Typography variant="h5" component="div" style={{ marginRight: '290px', backgroundColor: '#EB3E32', color: 'white' }}>
+            <Card sx={{ minWidth: 275, boxShadow: 0, textAlign: 'center' }} style={{ border: '1px solid #E1E1E1', borderRadius: '13px'}}>
+                <Typography variant="h5" component="div" style={{ marginRight: '70%', backgroundColor: '#EB3E32', color: 'white' }}>
                     ${price}
                 </Typography>
                 <CardMedia

@@ -23,7 +23,7 @@ const Products = () => {
 
 
     return (
-        <Box sx={{ flexGrow: 1, mb: 5 }}>
+        <Box sx={{ flexGrow: 1, pb: 5 }}>
             <Container>
                 <Typography variant="h4" component="div" style={{ paddingTop: '60px', paddingBottom: '20px' }} sx={{ textAlign: 'center', fontWeight: '700', color: '#454545', m: 2 }}>
                     OUR PRODUCTS
